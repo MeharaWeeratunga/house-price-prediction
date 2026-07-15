@@ -4,7 +4,7 @@ This project explores the Ames Housing dataset and builds machine learning model
 
 ## Dataset
 
-The project uses the Ames Housing dataset from Kaggle, containing 1,460 residential properties with 80 features describing various aspects of each house.
+The project uses the Ames Housing dataset from Kaggle, containing 1,460 residential properties with 79 explanatory variables describing various aspects of each house.
 
 ## Tech Stack
 
@@ -65,22 +65,13 @@ house-price-prediction/
 └── .gitignore
 ```
 
-## What I Learned
-
-This project helped me understand:
-
-- Exploratory Data Analysis (EDA)
-- Missing value handling
-- Feature engineering
-- One-hot encoding
-- Train/test splitting
-- Regression models
-- Model evaluation using MAE, MSE, RMSE and R²
-- Feature importance analysis
-
 ## Future Improvements
 
 - Tune Random Forest hyperparameters
 - Perform cross-validation
 - Build a small web application for house price prediction
 - Submit predictions to the Kaggle competition
+
+## References
+
+- Ana Lina Morelia and DataCanary. *House Prices – Advanced Regression Techniques*. Kaggle, 2016. Dataset: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
